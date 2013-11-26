@@ -1,0 +1,56 @@
+body
+{
+	background-color: white;
+}
+
+nav, #logo, #nom, #connection
+{
+	display: inline-block;
+}
+
+#bloc_page
+{
+	width: 1024px;
+	margin: auto;
+}
+
+/*header*/
+
+header
+{
+	height: 150px;
+	width: 900px;
+	margin: auto;
+}
+
+#logo
+{
+	height: 150px;
+	width: 200px;
+}
+
+#nom
+{
+	height: 100px;
+	width: 500px;
+	margin-left: 200px;
+}
+
+#connection
+{
+	height: 150px;
+	width: 200px;
+	margin-left: 700px;
+}
+
+/*nav*/
+
+nav
+{
+	height: 50px;
+	width: 500px;
+	margin-top: 100px;
+	margin-left: 200px;
+}
+
+/*footer*/
