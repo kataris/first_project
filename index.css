@@ -12,6 +12,7 @@ footer, header, #logo, #nom, #connection, nav
 {
 	width: 900px;
 	border: 1px green solid;
+	margin: auto;
 }
 
 /*header*/
