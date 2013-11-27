@@ -10,6 +10,7 @@
 		<!--[if lte IE 7]>
 			<link rel="stylesheet" href="index_ie.css" />
 		<![endif]-->
+		<script type='text/javascript' src='http://code.jquery.com/jquery-1.10.2.min.js'></script>
 	</head>
 	
 	<body onhashchange='reload()'>
@@ -17,8 +18,8 @@
 	<?php
 		include("header.php"); ?>
 	<div id="page"></div>
-	<script src="fichierjs.js"></script>
 	<?php include("footer.php"); ?>
 	</div>
+	<script type='text/javascript' src='fichierjs.js'></script>
 	</body>
 </html>

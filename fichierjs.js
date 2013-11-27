@@ -49,6 +49,20 @@ function executer(page) {
 			break;		
 		}
 	}
+
+// listen for scroll
+var positionElementInPage = $('nav').offset().top;
+$(document).scroll(
+    function() {
+        if ($(document).scrollTop() >= positionElementInPage) {
+            // fixed
+            $('nav').addClass("floatable");
+        } else {
+            // relative
+            $('nav').removeClass("floatable");
+        }
+    }
+);
 	
 if(window.location.hash) {
 	} else {
