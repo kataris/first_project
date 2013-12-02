@@ -63,6 +63,34 @@ $(document).scroll(
         }
     }
 );
+$('#participer').hover(
+	function() {
+		$('#sous_menu_participer').addClass("visible");
+	}, function() {
+		$('#sous_menu_participer').removeClass("visible");
+	}
+);
+$('#sous_menu_participer').hover(
+	function() {
+		$('#sous_menu_participer').addClass("visible");
+	}, function() {
+		$('#sous_menu_participer').removeClass("visible");
+	}
+);
+$('#aide').hover(
+	function() {
+		$('#sous_menu_aide').addClass("visible");
+	}, function() {
+		$('#sous_menu_aide').removeClass("visible");
+	}
+);
+$('#sous_menu_aide').hover(
+	function() {
+		$('#sous_menu_aide').addClass("visible");
+	}, function() {
+		$('#sous_menu_aide').removeClass("visible");
+	}
+);
 	
 if(window.location.hash) {
 	} else {

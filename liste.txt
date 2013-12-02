@@ -9,4 +9,4 @@
 - fonction JS/CSS connexion --> Ali
 - fond en-tête --> Corentin
 - fond menu --> corentin
-- finir menu (apparition des blocs) --> Matthias
+- finir menu (apparition des blocs) --> Matthias --> fait

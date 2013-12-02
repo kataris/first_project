@@ -3,7 +3,7 @@ body
 	background-color: white;
 }
 
-footer, header, #logo, #nom, #connection, nav
+footer, header, #logo, #nom, #connection, nav, nav h1, nav span
 {
 	display: inline-block;
 }
@@ -70,6 +70,111 @@ nav.floatable
 	top: 0px;
 	left: 50%;
 	margin-left : -250px;
+}
+
+nav h1
+{
+	margin-left: 30px;
+	margin-right: 30px;
+	height: 30px;
+}
+
+#projet_en_cours
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	height: 15px;
+	overflow: hidden;
+}
+
+#idees_de_projet
+{
+	position: absolute;
+	top: 10px;
+	left: 140px;
+	height: 15px;
+	overflow: hidden;
+}
+
+#projet_fini
+{
+	position: absolute;
+	top: 10px;
+	left: 270px;
+	height: 15px;
+	overflow: hidden;
+}
+
+#faq
+{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	height: 20px;
+	overflow: hidden;
+}
+
+#contactez_nous
+{
+	position: absolute;
+	top: 10px;
+	left: 85px;
+	height: 15px;
+	overflow: hidden;
+}
+
+#sous_menu_participer span, #sous_menu_aide span
+{
+	margin-right: 30px;
+}
+
+#sous_menu_participer
+{
+	width: 0px;
+	height: 50px;
+	overflow: hidden;
+	position: absolute;
+	top : 50px;
+	left: -15px;
+	background-color: blue;
+	-webkit-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	-moz-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	-o-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+}
+
+#sous_menu_participer.visible
+{
+	width: 400px;
+	-webkit-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	-moz-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	-o-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+}
+
+#sous_menu_aide
+{
+	width: 0px;
+	height: 50px;
+	overflow: hidden;
+	position: absolute;
+	top: 50px;
+	left: 350px;
+	background-color: blue;
+	-webkit-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	-moz-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	-o-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+}
+
+#sous_menu_aide.visible
+{
+	width: 225px;
+	-webkit-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	-moz-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	-o-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
 }
 
 /*footer*/
