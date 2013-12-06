@@ -1,6 +1,6 @@
-- design bloc 1
-- fonction serveur bloc 1
-- fonction JS/CSS bloc 1
+- design bloc 1 --> Corentin
+- fonction serveur bloc 1 --> Corentin
+- fonction JS/CSS bloc 1 --> Corentin
 - design bloc 2 --> Matthias
 - fonction serveur bloc 2 --> Matthias
 - fonction JS/CSS bloc 2 --> Matthias
