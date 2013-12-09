@@ -1,6 +1,9 @@
 body
 {
 	background-color: white;
+	background-image : url("image/Baniere.jpg");
+	background-repeat: no-repeat;
+	background-position: top center;
 }
 
 footer, header, #logo, #nom, #connection, nav, nav h1, nav span
@@ -11,8 +14,8 @@ footer, header, #logo, #nom, #connection, nav, nav h1, nav span
 #bloc_page
 {
 	width: 900px;
-	border: 1px green solid;
-	margin: auto;
+	left: 50%;
+	margin-left : -450px;
 	position: relative;
 }
 
@@ -23,7 +26,6 @@ header
 	height: 150px;
 	width: 900px;
 	position: relative;
-	background-image : url("image/Baniere.jpg");
 }
 
 #logo
