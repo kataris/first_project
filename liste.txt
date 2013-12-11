@@ -1,12 +1,21 @@
+#boulot de la semaine !!!#
+
+
+
+#distribution des tâches#
+
 - design bloc 1 --> Corentin
 - fonction serveur bloc 1 --> Corentin
 - fonction JS/CSS bloc 1 --> Corentin
 - design bloc 2 --> Matthias
 - fonction serveur bloc 2 --> Matthias
 - fonction JS/CSS bloc 2 --> Matthias
-- intégrer bloc connexion --> Ali
-- fonction php --> Ali
-- fonction JS/CSS connexion --> Ali
+- intégrer bloc connexion --> Matthias
+- fonction php --> Matthias
+- fonction JS/CSS connexion --> Matthias
 - fond en-tête --> Corentin
 - fond menu --> corentin
-- finir menu (apparition des blocs) --> Matthias --> fait
+
+#tâches
+
+- finir menu (apparition des blocs) --> Matthias
