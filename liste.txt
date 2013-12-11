@@ -1,9 +1,17 @@
 #boulot de la semaine !!!#
 
+Corentin
+-finaliser fonds en-tête/menu
+-design bloc 1
 
+Matthias
+-Base de données utilisateur
+-Bloc de connexion
 
 #distribution des tâches#
 
+
+ACCUEIL
 - design bloc 1 --> Corentin
 - fonction serveur bloc 1 --> Corentin
 - fonction JS/CSS bloc 1 --> Corentin
@@ -16,6 +24,10 @@
 - fond en-tête --> Corentin
 - fond menu --> corentin
 
-#tâches
+PROJET EN COURS --> photo
+
+IDEES DE PROJET --> photo
+
+#tâches finies
 
 - finir menu (apparition des blocs) --> Matthias
