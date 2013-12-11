@@ -60,7 +60,7 @@ nav
 	position: absolute;
 	top: 100px;
 	left: 200px;
-	background-image : url("image/fondNav.jpg");
+	background-image : url("image/fondNav.png");
 }
 
 nav.floatable
@@ -69,7 +69,7 @@ nav.floatable
 	top: 0px;
 	left: 50%;
 	margin-left : -250px;
-	background-image : url("image/fondNav.jpg");
+	background-image : url("image/fondNav.png");
 }
 
 nav h1
