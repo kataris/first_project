@@ -6,7 +6,7 @@ body
 	background-position: top center;
 }
 
-footer, header, #logo, #nom, #connection, nav, nav h1, nav span
+footer, header, #logo, #nom, #connection, nav, nav h1, nav span, #connection_bloc_rester, #connection_c, #connection_onnection, #connection_inscription, #connection_photo, #connection_infos, #connection_parametre_rapide
 {
 	display: inline-block;
 }

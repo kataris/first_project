@@ -1,0 +1,25 @@
+#connection_photo
+{
+	width: 75px;
+	height: 100px;
+}
+
+#connection_photo img
+{
+	width: 75px;
+	height: auto;
+	max-height: 100px;
+}
+
+#connection_infos
+{
+	width: 121px;
+	margin-left: 79px;
+	margin-top: -105px;
+	height: 15px;
+}
+
+#connection_parametre_rapide
+{
+	margin: 5px;
+}

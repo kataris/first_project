@@ -5,7 +5,7 @@ Corentin
 -design bloc 1
 
 Matthias
--Base de données utilisateur --> mis en place
+-Base de données utilisateur
 -Bloc de connexion
 
 #distribution des tâches#

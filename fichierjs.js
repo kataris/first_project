@@ -97,3 +97,8 @@ if(window.location.hash) {
 	parent.location.hash='index';
 	}
 	changer_contenu(parent.location.hash = parent.location.hash.replace(/#([\s\S]*?)/g, '$1'), "page");
+$(function(){
+  $("head").append(
+    $(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"vue/connection/connecte.css"})
+  );
+});

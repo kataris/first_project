@@ -1,0 +1,29 @@
+#connection_bloc_rester
+{
+	width: 120px;
+	vertical-align: top;
+	margin-top: 5px;
+	margin-left: 35px;
+}
+
+#connection_c
+{
+	width: 31px;
+	font-size: 50px;
+	margin-left: 10px;
+}
+
+#connection_onnection
+{
+	width: 100px;
+	margin-left: 40px;
+	margin-top: -27px;
+	vertical-align: top;
+}
+
+#connection_inscription
+{
+	width: 70px;
+	margin-left: 130px;
+	margin-top: -15px;
+}
