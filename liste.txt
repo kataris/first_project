@@ -3,10 +3,12 @@
 Corentin
 -finaliser fonds en-tête/menu
 -design bloc 1
+-bien avancer sur les cours php/mysql et JavaScript
 
 Matthias
 -Base de données utilisateur
 -Bloc de connexion
+-fonction connexion php
 
 #distribution des tâches#
 
@@ -19,7 +21,7 @@ ACCUEIL
 - fonction serveur bloc 2 --> Matthias
 - fonction JS/CSS bloc 2 --> Matthias
 - intégrer bloc connexion --> Matthias
-- fonction php --> Matthias
+- fonction connexion php --> Matthias
 - fonction JS/CSS connexion --> Matthias
 - fond en-tête --> Corentin
 - fond menu --> corentin
