@@ -6,7 +6,7 @@ body
 	background-position: top center;
 }
 
-footer, header, #logo, #nom, #connection, nav, nav h1, nav span, #connection_bloc_rester, #connection_c, #connection_onnection, #connection_inscription, #connection_photo, #connection_infos, #connection_parametre_rapide
+footer, header, #logo, #nom, #connection, nav, nav h1, nav span, #connection_bloc_rester, #connection_c, #connection_onnection, #connection_inscription, #connection_photo, #connection_infos, #connection_parametre_rapide, #projetgauche, #projetdroite, #bloc1, #corpsprojet, #plusinfo, #descriptionprojet, #boutonplusungauche, #boutonplusundroite
 {
 	display: inline-block;
 }
@@ -70,6 +70,7 @@ nav.floatable
 	left: 50%;
 	margin-left : -250px;
 	background-image : url("image/fondNav.png");
+	z-index : 10;
 }
 
 nav h1
@@ -186,7 +187,75 @@ footer
 	border: 1px black solid;
 }
 
-#page
+#page_je_rajoute_un_truc
 {
 	height: 2000px;
+}
+
+/*bloc 1*/
+
+#projetgauche, #projetdroite
+{
+	height : 500px;
+	width : 400px;
+	position : relative;
+	top : 40px;
+}
+
+#projetgauche
+{
+	left : 25px;
+}
+
+#projetdroite
+{
+	left : 70px;
+}
+
+#bloc1
+{
+	width : 900px;
+	height : 600px;
+}
+
+#plusinfo
+{
+	bottom : 5px;
+	left : 5px;
+	background-color : red;
+	height : 20px;
+	width : 340px;
+	position : absolute;
+	text-align : center;
+}
+
+#corpsprojet
+{
+	background-color : grey;
+	height : 450px;
+	width : 350px;
+	position : relative;
+	top : 25px;
+	left : 25px;
+}
+
+#boutonplusungauche, #boutonplusundroite
+{
+	height : 25px;
+	width : 25px;
+	background-color : yellow;
+	position : absolute;
+	text-align : center;
+}
+
+#boutonplusungauche
+{
+	top : 0px;
+	left : 0px;
+}
+
+#boutonplusundroite
+{
+	top : 0px;
+	right : 0px;
 }

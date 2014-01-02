@@ -1,9 +1,9 @@
 #boulot de la semaine !!!#
 
 Corentin
--finaliser fonds en-tête/menu
--design bloc 1
--bien avancer sur les cours php/mysql et JavaScript
+-finaliser fonds en-tête/menu (A mon retour à Lyon)
+-design bloc 1 (Fait)
+-bien avancer sur les cours php/mysql et JavaScript (Fait / Commencé)
 
 Matthias
 -Base de données utilisateur
@@ -14,7 +14,6 @@ Matthias
 
 
 ACCUEIL
-- design bloc 1 --> Corentin
 - fonction serveur bloc 1 --> Corentin
 - fonction JS/CSS bloc 1 --> Corentin
 - design bloc 2 --> Matthias
@@ -32,4 +31,5 @@ IDEES DE PROJET --> photo
 
 #tâches finies
 
+- design bloc 1 --> Corentin
 - finir menu (apparition des blocs) --> Matthias
