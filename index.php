@@ -14,15 +14,14 @@
 	</head>
 	
 	<body onhashchange='reload()'>
-	<?php include('Corentin/fondgris.php') ?>;
-	<?php include('Corentin/pagedescriptionprojet.php'); ?>
 	<div id="bloc_page">
-		<?php include("header.php"); ?>
-		<div id="page_je_rajoute_un_truc">
-			<?php include('vue/body/bloc1/bloc1.php'); ?>
-		</div>
-		<?php include("footer.php"); ?>
+	<?php
+		include("header.php"); ?>
+	<div id="page"></div>
+	<?php include("footer.php"); ?>
 	</div>
-		<script type='text/javascript' src='fichierjs.js'></script>
+	<div id="lightbox" style="display: none;"></div>
+	<div id="fadebox" style="display: none;" onclick="lightbox();"></div>
+	<script type='text/javascript' src='fichierjs.js'></script>
 	</body>
 </html>

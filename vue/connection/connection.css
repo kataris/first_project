@@ -9,6 +9,7 @@
 	width: 75px;
 	height: auto;
 	max-height: 100px;
+	cursor: pointer;
 }
 
 #connection_infos

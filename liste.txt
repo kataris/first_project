@@ -1,26 +1,25 @@
 #boulot de la semaine !!!#
 
 Corentin
--finaliser fonds en-tête/menu (A mon retour à Lyon)
--design bloc 1 (Fait)
--bien avancer sur les cours php/mysql et JavaScript (Fait / Commencé)
+-finaliser fonds en-tête/menu
+-design bloc 1
 
 Matthias
 -Base de données utilisateur
 -Bloc de connexion
--fonction connexion php
 
 #distribution des tâches#
 
 
 ACCUEIL
+- design bloc 1 --> Corentin
 - fonction serveur bloc 1 --> Corentin
 - fonction JS/CSS bloc 1 --> Corentin
 - design bloc 2 --> Matthias
 - fonction serveur bloc 2 --> Matthias
 - fonction JS/CSS bloc 2 --> Matthias
 - intégrer bloc connexion --> Matthias
-- fonction connexion php --> Matthias
+- fonction php --> Matthias
 - fonction JS/CSS connexion --> Matthias
 - fond en-tête --> Corentin
 - fond menu --> corentin
@@ -31,5 +30,4 @@ IDEES DE PROJET --> photo
 
 #tâches finies
 
-- design bloc 1 --> Corentin
 - finir menu (apparition des blocs) --> Matthias

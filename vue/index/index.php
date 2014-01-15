@@ -1,0 +1,1 @@
+<?php include('vue/bloc1/bloc1.php'); ?>
