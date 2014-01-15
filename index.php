@@ -14,6 +14,8 @@
 	</head>
 	
 	<body onhashchange='reload()'>
+	<?php include('Corentin/fondgris.php') ?>;
+	<?php include('Corentin/pagedescriptionprojet.php'); ?>
 	<div id="bloc_page">
 		<?php include("header.php"); ?>
 		<div id="page_je_rajoute_un_truc">

@@ -6,7 +6,7 @@ body
 	background-position: top center;
 }
 
-footer, header, #logo, #nom, #connection, nav, nav h1, nav span, #connection_bloc_rester, #connection_c, #connection_onnection, #connection_inscription, #connection_photo, #connection_infos, #connection_parametre_rapide, #projetgauche, #projetdroite, #bloc1, #corpsprojet, #plusinfo, #descriptionprojet, #boutonplusungauche, #boutonplusundroite
+footer, header, #logo, #nom, #connection, nav, nav h1, nav span, #connection_bloc_rester, #connection_c, #connection_onnection, #connection_inscription, #connection_photo, #connection_infos, #connection_parametre_rapide, #projetgauche, #projetdroite, #bloc1, #corpsprojet, #plusinfo, #descriptionprojet, #boutonplusungauche, #boutonplusundroite, #bloc-pagedescriptionprojet, #pagedescriptionprojet, #fondgris
 {
 	display: inline-block;
 }
@@ -200,6 +200,20 @@ footer
 	width : 400px;
 	position : relative;
 	top : 40px;
+	-webkit-transition: all 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+   -moz-transition: all 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+     -o-transition: all 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+        transition: all 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+}
+
+#projetgauche.petit, #projetdroite.petit
+{
+	height : 400px;
+	width : 300px;
+	-webkit-transition: all 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+   -moz-transition: all 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+     -o-transition: all 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750); 
+        transition: all 400ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
 }
 
 #projetgauche
@@ -258,4 +272,43 @@ footer
 {
 	top : 0px;
 	right : 0px;
+}
+
+#fondgris
+{
+	height : 0px;
+	width : 0px;
+	overflow : hidden;
+	top : 0px;
+	left : 0px;
+}
+
+#fondgris.visible
+{
+	background-color : black;
+	height : 100%;
+	width : 100%;
+	opacity : 0.88;
+	position: fixed;
+	z-index : 15;
+	left : 0px;
+	top : 0px;
+}
+
+#pagedescriptionprojet
+{
+	height : 0px;
+	width : 0px;
+	overflow : hidden;
+	top : 0px;
+	right : 0px;
+}
+
+#pagedescriptionprojet.visible
+{
+	background-color : white;
+	height : 1000 px;
+	width : 500 px;
+	z-index : 16;
+	position : fixed;
 }

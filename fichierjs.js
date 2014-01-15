@@ -49,6 +49,51 @@ function executer(page) {
 			break;		
 		}
 	}
+	
+function afficherprojetpleinepage(blocdappel)
+{
+	if(blocdappel == 'plusinfo')
+	{
+		$('#fondgris').addClass('visible');
+		$('#pagedescriptionprojet').addClass('visible');
+	}
+	else
+	{
+		if(blocdappel == 'fondgris')
+		{
+			$('#fondgris').removeClass('visible');
+			$('#pagedescriptionprojet').removeclass('visible');
+		}
+	}
+}
+
+function retrecitprojet(choix)
+{
+	switch (choix) {
+		case "gauche":
+			$("#conteneurprojetdroite").addClass('petit');
+			break;
+		case "droit":
+			$("#conteneurprojetgauche").addClass('petit');
+			break;
+		default :
+			break;
+	}
+}
+
+function deretrecitprojet(choix)
+{
+	switch (choix) {
+		case "gauche":
+			$("#conteneurprojetdroite").removeClass('petit');
+			break;
+		case "droit":
+			$("#conteneurprojetgauche").removeClass('petit');
+			break;
+		default :
+		break;
+	}
+}
 
 // listen for scroll
 var positionElementInPage = $('nav').offset().top;
