@@ -1,0 +1,11 @@
+-préparer mail
+-système questionnaire
+	permettre au créateur de détailler ses idées, idées par idées et ça sur plusieurs étages.
+-préparer la mise en ligne
+	correction bug bloc connection
+	bloc 1
+-répartir travail pour la semaine
+	bloc1 --> Corentin
+	espace détente --> Corentin
+	bloc connexion correction des bugs --> Matthias
+	bloc2 --> Matthias

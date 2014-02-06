@@ -1,0 +1,10 @@
+-préparer mail
+-bloc 1 base de données
+-système de vote
+
+	bloquage par utilisateur
+	utilisateur guest (fichier JS)
+-système questionnaire
+-mise en ligne
+
+-->page de projet (2 versions : créateur/visiteur)
