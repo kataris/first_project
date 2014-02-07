@@ -119,7 +119,7 @@ function connection(){
 		var pseudo = document.getElementById("connection_pseudo").value;
 		var mdp = document.getElementById("connection_pass").value;
 		var rester = document.getElementById("connection_rester").checked;
-		var content = pseudo+'/++**++/'+mdp+'/++**++/';
+		var content = pseudo+'/++**++/'+mdp;
 		content = encodeURIComponent(content);
 		var xhr = getXMLHttpRequest();
 				
@@ -142,6 +142,7 @@ function connection(){
 				}else
 				{
 					alert('mauvais identifiant ou mot de passe !');
+					document.getElementById('connection_pass').value='';
 				}
 			} else if (xhr.readyState == 3){
 			}
