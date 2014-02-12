@@ -340,8 +340,9 @@ function boutonplusun(choix)
 		}
 	}
 }
-/* Espace detente */
 
+/* Espace detente */
+ 
 function chargerED()
 {
 	changer_contenu("espace_detente","page",1);
@@ -370,9 +371,10 @@ $(function(){
     $(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"vue/bloc1/bloc1.css"})
   );
 });
+ $(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"vue/espace_detente/espace_detente.css"})
 $(function(){
   $("head").append(
-    $(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"vue/espace_detente/espace_detente.css"})
+    $(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"vue/bloc2/bloc2.css"})
   );
 });
 if(document.cookie.indexOf('utilisateur'+'=')!=-1){
@@ -380,3 +382,18 @@ if(document.cookie.indexOf('utilisateur'+'=')!=-1){
 	changer_contenu('connection','connection',0);
 	remplir_espace_perso();
 }
+
+
+/*bloc2*/
+
+function affiche_bloc2_choix_bloc() {
+		if(document.getElementById('choix_bloc').style.display == 'none')
+		{
+			document.getElementById('choix_bloc').style.display = 'block';
+			$("#choix_bloc").addClass("ouvert");
+		}else
+		{
+			document.getElementById('choix_bloc').style.display = 'none';
+			$("#choix_bloc").removeClass("ouvert");
+		}
+	}

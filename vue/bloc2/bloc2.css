@@ -1,0 +1,126 @@
+#bloc2_conteneur1, #bloc2_conteneur2, #bloc2_conteneur3, #bloc2_conteneur4, #bloc2_conteneur5, #bloc2_conteneur6, #bloc2_conteneur7, #bloc2_conteneur8, #bloc2_conteneur9, #bloc2_conteneur10, #bloc2_conteneur11, #bloc2_conteneur12, #bloc2_conteneur13, #bloc2_conteneur14, #bloc2_conteneur15, #bloc2_conteneur16, #bloc2_conteneur17, #bloc2_conteneur18, #bloc2_conteneur19, #bloc2_conteneur20, #bloc2_conteneur21, #bloc2_conteneur22, #bloc2_conteneur23, #bloc2_conteneur24, #bloc2_conteneur25, #bloc2_conteneur26, #bloc2_conteneur27, #bloc2_conteneur28, #bloc2_conteneur29, #bloc2_conteneur30, #bloc2_conteneur31, #bloc2_conteneur32
+{
+	display: inline-block;
+}
+
+#bloc2_menu
+{
+	display: inline-block;
+	width: 800px;
+	margin-left: 50px;
+	margin-right: 0px;
+}
+
+#bloc_obligatoire1, #bloc_obligatoire2
+{
+	width: 180px;
+	height: 180px;
+	position: relative;
+	background-color: blue;
+}
+
+#bloc2_conteneur1, #bloc2_conteneur2, #bloc2_conteneur3, #bloc2_conteneur4, #bloc2_conteneur5, #bloc2_conteneur6, #bloc2_conteneur7, #bloc2_conteneur8, #bloc2_conteneur9, #bloc2_conteneur10, #bloc2_conteneur11, #bloc2_conteneur12, #bloc2_conteneur13, #bloc2_conteneur14, #bloc2_conteneur15, #bloc2_conteneur16, #bloc2_conteneur17, #bloc2_conteneur18, #bloc2_conteneur19, #bloc2_conteneur20, #bloc2_conteneur21, #bloc2_conteneur22, #bloc2_conteneur23, #bloc2_conteneur24, #bloc2_conteneur25, #bloc2_conteneur26, #bloc2_conteneur27, #bloc2_conteneur28, #bloc2_conteneur29, #bloc2_conteneur30, #bloc2_conteneur31, #bloc2_conteneur32
+{
+	width: 80px;
+	height: 80px;
+	margin: 10px;
+	background-color: green;
+}
+
+.option_cliquable
+{
+	display: inline-block;
+	width: 78px;
+	height: 78px;
+	margin: 10px;
+	vertical-align: center;
+	text-align: center;
+	border: 1px solid black;
+}
+
+.bloc2_contenu
+{
+	position: relative;
+	background-color: blue;
+}
+
+.forme1
+{
+	width: 80px;
+	height: 80px;
+}
+
+.forme2
+{
+	width: 80px;
+	height: 180px;
+}
+
+.forme3
+{
+	width: 180px;
+	height: 80px;
+}
+
+.forme4
+{
+	width: 80px;
+	height: 280px;
+}
+
+.forme5
+{
+	width: 280px;
+	height: 80px;
+}
+
+.forme6
+{
+	width: 180px;
+	height: 280px;
+}
+
+.forme7
+{
+	width: 280px;
+	height: 180px;
+}
+
+.forme8
+{
+	width: 280px;
+	height: 280px;
+}
+
+#bloc2_menu_cote
+{
+	display: inline-block;
+	width: 30px;
+	margin-top: 110px;
+	vertical-align: top;
+}
+
+#bloc2_modifier
+{
+	width: 30px;
+	height: 30px;
+	margin-top: 50px;
+	background-color: blue;
+}
+
+#choix_bloc
+{
+	width: 0px;
+	height: 0px;
+	overflow: hidden;
+}
+
+#choix_bloc.ouvert
+{
+	width: 800px;
+	height: 100px;
+	-webkit-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	-moz-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	-o-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+}

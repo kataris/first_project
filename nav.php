@@ -1,5 +1,5 @@
 <h1 id="participer">Participer</h1>
-<h1 id="espace_detente" onclick="chargerED()">Espace Détente</h1>
+<h1 id="espace_detente">Espace Détente</h1>
 <h1 id="aide">Aide</h1>
 <div id="sous_menu_participer">
 	<span id="projet_en_cours">Projet en cours</span>
