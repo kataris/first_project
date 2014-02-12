@@ -41,6 +41,7 @@
 	width : 340px;
 	position : absolute;
 	text-align : center;
+	cursor: pointer;
 }
 
 #plusinfogauche.petit, #plusinfodroite.petit
@@ -78,6 +79,7 @@
 	background-color : yellow;
 	position : absolute;
 	text-align : center;
+	cursor: pointer;
 }
 
 #boutonplusundroite.petit, #boutonplusungauche.petit
