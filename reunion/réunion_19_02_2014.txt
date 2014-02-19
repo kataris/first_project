@@ -1,0 +1,11 @@
+-préparer mail
+-préparer la mise en ligne
+	correction des bugs quentin
+	photo profil de base
+	bloc2
+-répartir le travail de la semaine
+	espace détente --> Corentin
+	bloc création projet --> Corentin
+	bloc2 --> Matthias
+	Projet en cours --> Matthias
+	
