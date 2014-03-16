@@ -348,6 +348,37 @@ function chargerED()
 	changer_contenu("espace_detente","page",1);
 	$('body').scrollTop(0);
 }
+
+function charger_categorie(choix)
+{
+	switch (choix)
+	{
+		case 'reglement':
+			changer_contenu('reglement','page',0);
+			break;
+		case 'tuto':
+			changer_contenu('tuto','page',0);
+			break;
+		case 'AQ':
+			changer_contenu('question_reponse','page',0);
+			break;
+		case 'bar':
+			changer_contenu('le_bar','page',0);
+			break;
+	}
+}
+
+function topic(choix, id) //choix 0 : reglement, 1 : tuto, ...
+{
+	switch (choix)
+	{
+		case 0:
+			createCookie(id_sujet,id,365);
+			changer_contenu('sujet','lightbox',0)
+			lightbox();
+			break;
+	}
+}
 	
 /*fonctions au chargement*/
 	
@@ -371,10 +402,14 @@ $(function(){
     $(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"vue/bloc1/bloc1.css"})
   );
 });
- $(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"vue/espace_detente/espace_detente.css"})
 $(function(){
   $("head").append(
     $(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"vue/bloc2/bloc2.css"})
+  );
+});
+$(function(){
+  $("head").append(
+    $(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"vue/espace_detente/espace_detente.css"})
   );
 });
 if(document.cookie.indexOf('utilisateur'+'=')!=-1){

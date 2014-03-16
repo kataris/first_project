@@ -16,20 +16,16 @@
 		{
 			die('Erreur : ' . $e->getMessage());
 		}
-		$reponse = $bdd->prepare('SELECT * FROM utilisateur where identifiant= BINARY"?"');
-		$reponse->execute(array($pseudo));
-		if($donnees = $reponse->fetch())
+		$reponse = $bdd->query('SELECT mot_de_passe FROM utilisateur WHERE identifiant=\''.$pseudo.'\'');
+		while ($donnees = $reponse->fetch())
 		{
 			if($donnees['mot_de_passe']==sha1($mdp))
-				{
-					$content = $pseudo;
-				}else
-				{
-					$content = 'false';
-				}
-		}else
-		{
-			$content = 'false';
+			{
+				$content = $pseudo;
+			}else
+			{
+				$content = 'false';
+			}
 		}
 		
 		$reponse->closeCursor();

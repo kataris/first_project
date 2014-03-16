@@ -1,0 +1,35 @@
+#titre_partie, #categorie, #titre_post, #post, #nouveau_post
+{
+	width : 900px;
+	border : 1px black solid;
+	position : relative;
+	top : 100px;
+	display : inline-block;
+}
+
+#titre_partie, #categorie.seul
+{
+	background-color : grey;
+	height : 50px;
+	text-align : center;
+	line-height : 300%;
+}
+
+#categorie
+{
+	height : 30px;
+	line-height : 300%;
+}
+
+#titre_post
+{
+	background-color : red;
+}
+
+#categorie.seul
+{
+	-webkit-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	-moz-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	-o-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+	transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+}
