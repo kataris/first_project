@@ -1,0 +1,325 @@
+#boutons, #sondages, #description, #PEC_conteneur_sondage1, #PEC_petit_point, #PEC_conteneur_sondage2, #PEC_conteneur_sondage3, .PEC_boutons, .bouton_carrousel_sondage, .bouton_carrousel_image, #PEC_conteneur_image1, #PEC_conteneur_image2, #PEC_conteneur_image3
+{
+	display: inline-block;
+}
+
+#description
+{
+	height: 450px;
+	width: 350px;
+}
+
+.PEC_description1
+{
+	margin-top: 150px;
+	margin-left: 275px;
+}
+
+.PEC_description2
+{	
+	margin: 25px;
+}
+
+.PEC_description3
+{
+	margin: 25px;
+	margin-top: 200px;
+}
+
+#barre_progression
+{
+	margin-top: 20px;
+	height: 21px;
+	width: 346px;
+	border: 2px black solid;
+}
+
+#PEC_barre_fait
+{
+	height: 100%;
+	width: 0%;
+	background: green;
+	text-align: right;
+}
+
+#description_projet
+{
+	margin-top: 30px;
+	margin-left: 25px;
+	height: 375px;
+	width: 300px;
+	background-color : grey;
+	position : relative;
+}
+
+#boutons
+{
+	vertical-align: top;
+	height: 100px;
+	width: 400px;
+}
+
+.PEC_bouton1
+{
+	margin: 25px;
+	margin-left: 250px;
+	margin-top: -550px;
+}
+
+.PEC_bouton2
+{
+	margin: 25px;
+}
+
+.PEC_bouton3
+{
+	margin: 25px;
+	margin-left: -150px;
+}
+
+.PEC_boutons
+{
+	width: 30%;
+	height: 100px;
+	margin-right: 2.5%;
+	background: blue;
+}
+
+#PEC_favori
+{
+	margin-left: 2.5%
+}
+
+#PEC_conteneur_sondage
+{
+	height: 275px;
+	width: 400px;
+}
+
+.PEC_conteneur_sondage0
+{
+	display: none;
+}
+
+.PEC_conteneur_sondage1
+{
+	margin: 50px;
+	margin-left: 425px;
+	margin-top: -325px;
+	vertical-align: top;
+}
+
+.PEC_conteneur_sondage2
+{
+	margin: 50px;
+	margin-left: 425px;
+	margin-top: -525px;
+	vertical-align: top;
+}
+
+#bloc1_sondage
+{
+	background: red;
+}
+
+#bloc2_sondage
+{
+	background: blue;
+}
+
+#bloc3_sondage
+{
+	background: pink;
+}
+
+#bloc4_sondage
+{
+	background: green;
+}
+
+#bloc5_sondage
+{
+	background: yellow;
+}
+
+#PEC_conteneur_sondage1
+{
+	height: 50px;
+	width: 50px;
+	vertical-align: top;
+	margin-top: 100px;
+	-moz-opacity: .50;
+	opacity:.50;
+	filter: alpha(opacity=50);
+}
+
+#PEC_conteneur_sondage2
+{
+	height: 250px;
+	width: 250px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#PEC_conteneur_sondage3
+{
+	height: 50px;
+	width: 50px;
+	vertical-align: top;
+	margin-top: 100px;
+	-moz-opacity: .50;
+	opacity:.50;
+	filter: alpha(opacity=50);
+}
+
+.PEC_select
+{
+	display: none;
+}
+
+.PEC_petit_prev_sondage, .PEC_petit_next_sondage
+{
+	height: 50px;
+	width: 50px;
+}
+
+.PEC_petit_prev_image, .PEC_petit_next_image
+{
+	height: 50px;
+	width: 50px;
+}
+
+.PEC_grand
+{
+	height: 250px;
+	width: 250px;
+}
+
+#PEC_presentation ul
+{
+	list-style-type: none;
+}
+
+.bouton_carrousel_sondage
+{
+	height: 10px;
+	width: 10px;
+	background: purple;
+	margin-left: 10px;
+}
+
+.bouton_carrousel_image
+{
+	height: 10px;
+	width: 10px;
+	background: purple;
+	margin-left: 10px;
+}
+
+#PEC_petit_point_sondage
+{
+	margin-top: 15px;
+	left: 50%;
+	position: relative;
+}
+
+#plusinfo
+{
+	bottom : 5px;
+	left : 5px;
+	background-color : red;
+	height : 20px;
+	width : 290px;
+	position : absolute;
+	text-align : center;
+	cursor: pointer;
+}
+
+#PEC_conteneur_image
+{
+	height: 275px;
+	width: 400px;
+}
+
+.PEC_conteneur_image0
+{
+	display: none;
+}
+
+.PEC_conteneur_image1
+{
+	margin: 50px;
+	margin-left: 425px;
+	margin-top: -325px;
+	vertical-align: top;
+}
+
+.PEC_conteneur_image2
+{
+	margin: 50px;
+	margin-left: 425px;
+	vertical-align: top;
+}
+
+#bloc1_image
+{
+	background: red;
+}
+
+#bloc2_image
+{
+	background: blue;
+}
+
+#bloc3_image
+{
+	background: pink;
+}
+
+#bloc4_image
+{
+	background: green;
+}
+
+#bloc5_image
+{
+	background: yellow;
+}
+
+#PEC_conteneur_image1
+{
+	height: 50px;
+	width: 50px;
+	vertical-align: top;
+	margin-top: 100px;
+	-moz-opacity: .50;
+	opacity:.50;
+	filter: alpha(opacity=50);
+}
+
+#PEC_conteneur_image2
+{
+	height: 250px;
+	width: 250px;
+	margin-left: 25px;
+	margin-right: 25px;
+}
+
+#PEC_conteneur_image3
+{
+	height: 50px;
+	width: 50px;
+	vertical-align: top;
+	margin-top: 100px;
+	-moz-opacity: .50;
+	opacity:.50;
+	filter: alpha(opacity=50);
+}
+
+#PEC_petit_point_image
+{
+	margin-top: 15px;
+	left: 50%;
+	position: relative;
+}
+	

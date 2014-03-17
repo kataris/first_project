@@ -22,6 +22,6 @@
 	</div>
 	<div id="lightbox" style="display: none;"></div>
 	<div id="fadebox" style="display: none;" onclick="lightbox();"></div>
-	<script type='text/javascript' src='fichierjs.js'></script>
+	<script type='text/javascript' src='fichierjs.js' defer></script>
 	</body>
 </html>

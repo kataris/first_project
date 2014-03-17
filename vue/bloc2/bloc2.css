@@ -1,4 +1,4 @@
-#bloc2_conteneur1, #bloc2_conteneur2, #bloc2_conteneur3, #bloc2_conteneur4, #bloc2_conteneur5, #bloc2_conteneur6, #bloc2_conteneur7, #bloc2_conteneur8, #bloc2_conteneur9, #bloc2_conteneur10, #bloc2_conteneur11, #bloc2_conteneur12, #bloc2_conteneur13, #bloc2_conteneur14, #bloc2_conteneur15, #bloc2_conteneur16, #bloc2_conteneur17, #bloc2_conteneur18, #bloc2_conteneur19, #bloc2_conteneur20, #bloc2_conteneur21, #bloc2_conteneur22, #bloc2_conteneur23, #bloc2_conteneur24, #bloc2_conteneur25, #bloc2_conteneur26, #bloc2_conteneur27, #bloc2_conteneur28, #bloc2_conteneur29, #bloc2_conteneur30, #bloc2_conteneur31, #bloc2_conteneur32
+.bloc2_conteneur, .bloc2_conteneur_modif
 {
 	display: inline-block;
 }
@@ -19,19 +19,34 @@
 	background-color: blue;
 }
 
-#bloc2_conteneur1, #bloc2_conteneur2, #bloc2_conteneur3, #bloc2_conteneur4, #bloc2_conteneur5, #bloc2_conteneur6, #bloc2_conteneur7, #bloc2_conteneur8, #bloc2_conteneur9, #bloc2_conteneur10, #bloc2_conteneur11, #bloc2_conteneur12, #bloc2_conteneur13, #bloc2_conteneur14, #bloc2_conteneur15, #bloc2_conteneur16, #bloc2_conteneur17, #bloc2_conteneur18, #bloc2_conteneur19, #bloc2_conteneur20, #bloc2_conteneur21, #bloc2_conteneur22, #bloc2_conteneur23, #bloc2_conteneur24, #bloc2_conteneur25, #bloc2_conteneur26, #bloc2_conteneur27, #bloc2_conteneur28, #bloc2_conteneur29, #bloc2_conteneur30, #bloc2_conteneur31, #bloc2_conteneur32
+.bloc2_conteneur
 {
 	width: 80px;
 	height: 80px;
 	margin: 10px;
-	background-color: green;
+	background-color: white;
+	-moz-opacity: 1;
+	opacity:1;
+	filter: alpha(opacity=100);
+}
+
+.bloc2_conteneur_modif
+{
+	position: relative;
+	width: 80px;
+	height: 80px;
+	margin: 10px;
+	background-color: black;
+	-moz-opacity: .80;
+	opacity:.80;
+	filter: alpha(opacity=80);
 }
 
 .option_cliquable
 {
 	display: inline-block;
-	width: 78px;
-	height: 78px;
+	width: 66px;
+	height: 66px;
 	margin: 10px;
 	vertical-align: center;
 	text-align: center;
@@ -41,6 +56,22 @@
 .bloc2_contenu
 {
 	position: relative;
+	background-color: blue;
+}
+
+.bloc2_contenu_faux
+{
+	position: absolute;
+	top:0px;
+	left: 0px;
+	background-color: red;
+}
+
+.bloc2_contenu_vrai
+{
+	position: absolute;
+	top:0px;
+	left: 0px;
 	background-color: blue;
 }
 
@@ -64,29 +95,35 @@
 
 .forme4
 {
+	width: 180px;
+	height: 180px;
+}
+
+.forme5
+{
 	width: 80px;
 	height: 280px;
 }
 
-.forme5
+.forme6
 {
 	width: 280px;
 	height: 80px;
 }
 
-.forme6
+.forme7
 {
 	width: 180px;
 	height: 280px;
 }
 
-.forme7
+.forme8
 {
 	width: 280px;
 	height: 180px;
 }
 
-.forme8
+.forme9
 {
 	width: 280px;
 	height: 280px;
@@ -124,4 +161,14 @@
 	-moz-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
 	-o-transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
 	transition: all 500ms cubic-bezier(0.455, 0.030, 0.515, 0.955);
+}
+
+.vrai
+{
+	background-color: blue;
+}
+
+.faux
+{
+	background-color: red;
 }
