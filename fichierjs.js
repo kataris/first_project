@@ -35,6 +35,11 @@ $(function(){
     $(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"vue/bloc1/bloc1.css"})
   );
 });
+$(function(){
+  $("head").append(
+    $(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"vue/espace_detente/espace_detente.css"})
+  );
+});
  $(document.createElement("link")).attr({rel:"stylesheet", type:"text/css", href:"vue/espace_detente/espace_detente.css"})
 $(function(){
   $("head").append(
