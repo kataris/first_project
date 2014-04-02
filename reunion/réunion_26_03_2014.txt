@@ -12,7 +12,7 @@
 		-Cliquer sur le nom du site ou le logo
 	*Page d'accueil:
 		-Comment fonctionne le système de vote ?
-			*On vous oppose deux projet et vous devez voter pour celui que vous préférez. Vous avez une description rapide
+			*On vous oppose deux projets et vous devez voter pour celui que vous préférez. Vous avez une description rapide
 			 et en cliquant sur "plus d'informations", vous pourrez accéder à la description détaillée du projet.
 			 Pour voter, cliquez sur le "+1" correspondant au projet
 		-Et pour le menu personnalisable ?
@@ -21,5 +21,29 @@
 			 -cliquez sur le bouton modifier
 			 -Cliquez sur la dimensions que vous voulez
 			 -Cliquez sur une case de libre dans le menu pour poser votre bloc puis indiquer le lien et une image.
+	*Créer un projet:
+		-Comment créer un projet ?
+			*Rendez-vous dans la page "idées de projet" puis cliquez sur le bouton adéquat.
+			*Donnez une description rapide de votre idées puis classez le dans une catégorie.
+			*Vous aurez ensuite la possibilité de détailler votre description, ajouter un sondage ou des images
+			et échanger avec les autres utilisateurs intéressés.Vous pourrez ausi ajouter un nom ou modifier votre description rapide.
+			Enfin vous avez un outils pour créer votre description détailler. Pour l'utiliser, appuyez sur l'arbre.
+		-Comment ajouter une image ou un sondage? Comment voir le résultat des sondages ?
+			*Au début, vous aurez des boutons pour ajouter votre premier sondage ou image.
+			*Ensuite, un petit bouton modifier vous permettra d'ajouter, enlever ou modifier à votre guise.
+			*Pour vionner le résultat des sondages, cliquez sur le bouton "flèche arrière" situé au dessus des sondages.
+		-Comment modifier facilement ma description détaillée ? Je ne sais pas par ou commencer.
+			*
+	*participer aux projets:
+		-espace de discussion (donner avis/rapports de bugs)
+		-idées de projet
+		-projets finis
+	*Espace de discussion
+		-espace détente
+		-contactez-nous
 
 -répartition du travail de la semaine
+
+-créé liste bug
+
+-redissiner page projet

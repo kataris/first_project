@@ -1,0 +1,4 @@
+/*Bloc1*/
+
+grandissement avec +1
+

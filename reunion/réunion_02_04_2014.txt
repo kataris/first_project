@@ -1,0 +1,15 @@
+-préparer mail
+	ok
+-mise en ligne
+	ok pour vendredi : synchroniser et mettre à jour les bases de données avant samedi
+-optimisation
+	-mise à jour graphique
+	-renommer variables
+	-compatibilité(chrome, Firefox, IE7,8,9,?6?)
+	-Javascript (avec/sans)
+-répartition du travail de la semaine
+	optimisation javascript ==> matthias
+	renommer variables ==> tout le monde
+	FAQ/php ==> hanabi
+	finir espace détente ==> corentin
+	graphisme ==> corentin (si possible)
