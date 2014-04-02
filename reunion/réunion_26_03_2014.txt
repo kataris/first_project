@@ -1,0 +1,25 @@
+-préparer mail
+	envoyer connexion mysql site en ligne
+-mise en ligne
+	==> ok pour samedi : synchroniser et mettre à jour bases de données avant samedi
+-questions FAQ:
+	*Pourquoi venir sur ce site ?
+		-Anthill dev est un site internet qui vous permet de proposer vos idées de projet (site internet, application web, mobile, logiciels en tous genres ...)
+		 et de les développer avec les autres utilisateurs. Vous pourrez voter pour le projet que vous préférez
+		 et le projet le plus populaire sera développé par l'équipe Anthill dev.
+		 Vous pourrez suivre et participer au développement des différentes idées et du projet en cours de développement.
+	??*Comment revenir à l'accueil ???
+		-Cliquer sur le nom du site ou le logo
+	*Page d'accueil:
+		-Comment fonctionne le système de vote ?
+			*On vous oppose deux projet et vous devez voter pour celui que vous préférez. Vous avez une description rapide
+			 et en cliquant sur "plus d'informations", vous pourrez accéder à la description détaillée du projet.
+			 Pour voter, cliquez sur le "+1" correspondant au projet
+		-Et pour le menu personnalisable ?
+			*Ce menu vous permet de créer des liens rapides depuis la page d'accueil directement vers vos projets favoris
+			 ou même vers d'autres sites. Il vous suffit de créer de nouveaux bouton et pour cela:
+			 -cliquez sur le bouton modifier
+			 -Cliquez sur la dimensions que vous voulez
+			 -Cliquez sur une case de libre dans le menu pour poser votre bloc puis indiquer le lien et une image.
+
+-répartition du travail de la semaine
